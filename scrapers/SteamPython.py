@@ -7,7 +7,7 @@ import pandas as pd
 import json
 from selenium import webdriver
 from bs4 import BeautifulSoup as bs
-steamAPIKey="C8FF6EC59C1E99415F128F2CB692375C"
+steamAPIKey=""
 browser = webdriver.Chrome()
 maxpages = 100
 url_base = "http://store.steampowered.com/search/?sort_by=Name_ASC&tags=21978&page="
